@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html , body {
+    font-family: 'Montserrat', sans-serif !important;
+}
+.hero-bg-image
+    {
+        background: url('https://images.unsplash.com/photo-1676218208009-c3751feefaf0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1631&q=80') no-repeat center center /cover ;
+        background-attachment: fixed;
+        height: 600px ;
+    }
